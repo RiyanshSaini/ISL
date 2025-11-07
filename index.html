@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ISL Recognizer (Web)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>ISL Recognizer</h2>
+  <div class="wrap">
+    <video id="video" playsinline autoplay></video>
+    <canvas id="overlay"></canvas>
+  </div>
+  <div id="pred">Loading…</div>
+
+  <!-- TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js"></script>
+  <!-- MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  
+  <!-- Remove type="module" -->
+  <script src="./app.js"></script>
+</body>
+</html>
