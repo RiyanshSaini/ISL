@@ -25,7 +25,7 @@
 <table align="center">
 <tr>
 <td align="center"><img src="https://github.com/user-attachments/assets/30670772-ee4a-4653-8382-cac633f08530" width="350"/><br/><b>Real-time Hand Tracking</b></td>
-<td align="center"><img src="assets/demo2.png" width="350"/><br/><b>Letter Prediction</b></td>
+
 </tr>
 </table>
 
